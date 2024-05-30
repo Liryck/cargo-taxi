@@ -6,18 +6,780 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name='robots' content='noindex, nofollow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<link rel="canonical" href="https://"/>
-	<title>Document</title>
+	<title>Вантажне таксі "Обелікс"</title>
 	<meta name="description" content="text max 150 characters">
-	<link rel="shortcut icon" type="image/png" href=""/>
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+	<link rel="shortcut icon" type="image/png" sizes="32x32" href="icons/favicon/favicon.ico">
+	<link rel="shortcut icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+	<link rel="manifest" href="icons/favicon/site.webmanifest">
+	<link rel="mask-icon" href="icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+	<header class="header">
+		<div class="conteiner">
+			<div class="header__wrapper">
+				<a href="#" class="header__main-page-link">
+					<img class="header__logo" src="icons/logo.svg" alt="logo" class="logo" loading="lazy">
+					<img class="header__mob-logo" src="icons/mob-logo.svg" alt="logo" class="logo" loading="lazy">
+
+				</a>
+				<div class="header__right">
+					<menu class="header__menu">
+						<li class="header__menu-item"><a href="#promo" class="header__menu-link">головна</a></li>
+						<li class="header__menu-item header__menu-item_pr">
+							<a href="#transport" class="header__menu-link">автопарк</a>
+							<!-- <img src="icons/arrow.svg" alt="arrow" class="header__arrow"> -->
+						</li>
+						<li class="header__menu-item"><a href="#services" class="header__menu-link">послуги</a></li>
+						<li class="header__menu-item"><a href="#reviews" class="header__menu-link">відгуки</a></li>
+						<li class="header__menu-item"><a href="#about" class="header__menu-link">про нас</a></li>
+					</menu>
+					<div class="header__contacts">
+						<a href="#" class="header__tg">
+							<img src="icons/telegram-01.svg" alt="telegram" class="header__icon" loading="lazy">
+						</a>
+						<a href="tel:+380" class="header__phone-link">
+							<img src="icons/phone.svg" alt="phone" class="header__icon header__icon_mr5" loading="lazy">
+							<span>(093) 123-45-67</span>
+						</a>
+					</div>
+
+					<label class="header__hamburger">
+						<input type="checkbox" id="checkbox">
+						<svg viewBox="0 0 32 32">
+						  <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+						  <path class="line" d="M7 16 27 16"></path>
+						</svg>
+					</label>
+				</div>
+			</div>
+			
+		</div>
+	</header>
+
+	<menu class="header__mob-menu">
+		<li class="header__mob-menu-item">
+			<a href="#promo">Головна</a>
+		</li>
+		<li class="header__mob-menu-item">
+			<a href="#t-shirt">Автопарк</a>
+		</li>
+		<li class="header__mob-menu-item">
+			<a href="#puzzle">Послуги</a>
+		</li>
+		<li class="header__mob-menu-item">
+			<a href="#candle">Відгуки</a>
+		</li>
+		<li class="header__mob-menu-item">
+			<a href="#info">Про нас</a>
+		</li>
+	</menu>
+
+	<section class="promo" id="promo">
+		<div class="promo__position">
+			<div class="promo__wrapper">
+				<div class="promo__left">
+					<h1 class="title title_tsh">Вантажне таксі в Києві</h1>
+					<div class="promo__descr">Вантажні перевезення всіх видів по місту Київ.<br>Вчасно! Швидко! Якісно! </div>
+					<button class="button" data-modal="consultation">
+						<span class="top-key"></span>
+						<span class="text">Замовити консультацію</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</button>
+				</div>
+				
+				<div class="promo__right">
+					<img src="img/main_truck.png" alt="" class="promo__truck animate__animated animate__fadeInRight" data-wow-duration="2s">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages" id="advantages">
+		<div class="conteiner">
+			<div class="advantages__wrapper">
+				<div class="advantages__item">
+					<img src="icons/advantages/time-white.svg" alt="time" class="advantages__icon" loading="lazy">
+					<div class="advantages__text">
+						<div class="title title_white title_fs20">Пунктуальність</div>
+						<div class="advantages__descr">Бронюємо авто та водія з точною подачою в зазначений час</div>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="icons/advantages/price-white.svg" alt="price" class="advantages__icon" loading="lazy">
+					<div class="advantages__text">
+						<div class="title title_white title_fs20">Чесна ціна</div>
+						<div class="advantages__descr">Прозорі розрахунки вартості перед замовленням без сюрпризів після виконаних робіт</div>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="icons/advantages/transport-white.svg" alt="transport" class="advantages__icon" loading="lazy">
+					<div class="advantages__text">
+						<div class="title title_white title_fs20">Всі види транспорту</div>
+						<div class="advantages__descr">Наш автопарк налічує всі можливі види вантажного транспорту - від бусика закінчуєчи трактором</div>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="icons/advantages/professional-white.svg" alt="professional" class="advantages__icon" loading="lazy">
+					<div class="advantages__text">
+						<div class="title title_white title_fs20">Професіоналіз</div>
+						<div class="advantages__descr">Наші спеціалісти мають досвід перевезень вантажів будь-якою складності</div>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="icons/advantages/experience-white.svg" alt="experience" class="advantages__icon" loading="lazy">
+					<div class="advantages__text">
+						<div class="title title_white title_fs20">Великий досвід</div>
+						<div class="advantages__descr">Досвід вантажних перевезень понад 7 років допоможе підібрати варіанти для будь-яких задач</div>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<img src="icons/advantages/customer-white.svg" alt="customer" class="advantages__icon" loading="lazy">
+					<div class="advantages__text">
+						<div class="title title_white title_fs20">Клієнтоорієнтованість</div>
+						<div class="advantages__descr">Ми цінуємо нашу роботу і кожного клієнта. Робимо все для Вашого задоволення</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="conteiner">
+			<h2 class="title title_tac" id="transport">Замовити вантажне таксі</h2>
+			<div class="services__wrapper">
+				<div class="services__item">
+					<div class="services__item-inner">
+						<div class="services__item-front">
+							<img src="img/transport/busik.png" alt="Замовити вантажне таксі бус - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Мінівен</div>
+							<div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна: <span>350 грн.</span></div>
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Характеристики:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Висота:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Ширина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Довжина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Об'єм:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Вантажопідйомність:</td>
+										<td>1</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner">
+						<div class="services__item-front">
+							<img src="img/transport/sprinter.png" alt="Замовити вантажне таксі спрінтер - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Бус</div>
+							<div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна: <span>350 грн.</span></div>
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Характеристики:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Висота:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Ширина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Довжина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Об'єм:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Вантажопідйомність:</td>
+										<td>1</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner">
+						<div class="services__item-front">
+							<img src="img/transport/gazel.png" alt="Замовити вантажне таксі газель - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Газель</div>
+							<div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна: <span>350 грн.</span></div>
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Характеристики:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Висота:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Ширина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Довжина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Об'єм:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Вантажопідйомність:</td>
+										<td>1</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner">
+						<div class="services__item-front">
+							<img src="img/transport/5-tonnyk.png" alt="Замовити вантажне таксі 5-тонник - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">5-тонник</div>
+							<div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна: <span>350 грн.</span></div>
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Характеристики:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Висота:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Ширина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Довжина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Об'єм:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Вантажопідйомність:</td>
+										<td>1</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner">
+						<div class="services__item-front">
+							<img src="img/transport/fura.png" alt="Замовити вантажне таксі фура - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Фура</div>
+							<div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна: <span>350 грн.</span></div>
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Характеристики:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Висота:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Ширина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Довжина:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Об'єм:</td>
+										<td>1</td>
+									</tr>
+									<tr>
+										<td>Вантажопідйомність:</td>
+										<td>1</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="title title_tac title_mt70" id="services">Замовити вантажне перевезення</h2>
+
+			<div class="services__wrapper">
+				<div class="services__item">
+					<div class="services__item-inner services__item-inner_mh375">
+						<div class="services__item-front">
+							<img src="img/services/appartment-move.jpg" alt="Замовити квартирний переїзд - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Квартирний переїзд</div>
+							<!-- <div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна година: <span>350 грн.</span><br>Вантажник: <span>від 100 грн./година</span></div> -->
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Ціни:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Подача:</td>
+										<td>від 700 грн.</td>
+									</tr>
+									<tr>
+										<td>Кожна наступна:</td>
+										<td>від 350 грн.</td>
+									</tr>
+									<tr>
+										<td>Один вантажник:</td>
+										<td>від 100 грн/г</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner services__item-inner_mh375">
+						<div class="services__item-front">
+							<img src="img/services/office-delivery.jpg" alt="Замовити офісний переїзд - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Офісний переїзд</div>
+							<!-- <div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна година: <span>350 грн.</span><br>Вантажник: <span>від 100 грн./година</span></div> -->
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Ціни:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Подача:</td>
+										<td>від 700 грн.</td>
+									</tr>
+									<tr>
+										<td>Кожна наступна:</td>
+										<td>від 350 грн.</td>
+									</tr>
+									<tr>
+										<td>Один вантажник:</td>
+										<td>від 100 грн/г</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner services__item-inner_mh375">
+						<div class="services__item-front">
+							<img src="img/services/storage-delivery.jpg" alt="Замовити складський переїзд - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Складський переїзд</div>
+							<!-- <div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна година: <span>350 грн.</span><br>Вантажник: <span>від 100 грн./година</span></div> -->
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Ціни:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Подача:</td>
+										<td>від 700 грн.</td>
+									</tr>
+									<tr>
+										<td>Кожна наступна:</td>
+										<td>від 350 грн.</td>
+									</tr>
+									<tr>
+										<td>Один вантажник:</td>
+										<td>від 100 грн/г</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner services__item-inner_mh375">
+						<div class="services__item-front">
+							<img src="img/services/applience-delivery.jpg" alt="Замовити перевозку техніки - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Перевозка техніки</div>
+							<!-- <div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна година: <span>350 грн.</span><br>Вантажник: <span>від 100 грн./година</span></div> -->
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Ціни:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Подача:</td>
+										<td>від 700 грн.</td>
+									</tr>
+									<tr>
+										<td>Кожна наступна:</td>
+										<td>від 350 грн.</td>
+									</tr>
+									<tr>
+										<td>Один вантажник:</td>
+										<td>від 100 грн/г</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner services__item-inner_mh375">
+						<div class="services__item-front">
+							<img src="img/services/furniture-delivery.jpg" alt="Замовити перевозку меблів - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Перевозка меблів</div>
+							<!-- <div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна година: <span>350 грн.</span><br>Вантажник: <span>від 100 грн./година</span></div> -->
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Ціни:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Подача:</td>
+										<td>від 700 грн.</td>
+									</tr>
+									<tr>
+										<td>Кожна наступна:</td>
+										<td>від 350 грн.</td>
+									</tr>
+									<tr>
+										<td>Один вантажник:</td>
+										<td>від 100 грн/г</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<div class="services__item-inner services__item-inner_mh375">
+						<div class="services__item-front">
+							<img src="img/services/build-delivery.jpg" alt="Замовити доставку будівельних матеріалів - Вантаж Таксі Київ" class="services__img" loading="lazy">
+							<div class="title title_fs24">Доставка буд. матеріалів</div>
+							<!-- <div class="services__price">Подача (2 години): <span>700 грн.</span><br>Кожна наступна година: <span>350 грн.</span><br>Вантажник: <span>від 100 грн./година</span></div> -->
+						</div>
+						<div class="services__item-back">
+							<table class="services__table">
+								<thead>
+									<tr>
+										<th class="title title_fs20" colspan="2">Ціни:</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Подача:</td>
+										<td>від 700 грн.</td>
+									</tr>
+									<tr>
+										<td>Кожна наступна:</td>
+										<td>від 350 грн.</td>
+									</tr>
+									<tr>
+										<td>Один вантажник:</td>
+										<td>від 100 грн/г</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<button class="button button_w80" data-modal="order">
+								<span class="top-key"></span>
+								<span class="text text_tac">Замовити</span>
+								<span class="bottom-key-1"></span>
+								<span class="bottom-key-2"></span>
+							</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews" id="reviews">
+		<div class="conteiner">
+			<h2 class="title title_tac title_white title_tac">Відгуки</h2>
+			<div class="reviews__wrapper">
+				<div class="reviews__item">
+					<img src="img/reviews/kvartirniy-pereezd.jpg" alt="квартирний переїзд" class="reviews__client" loading="lazy">
+					<div class="title title_fs24 title_white title_tac">Олена - квартирний переїзд</div>
+					<div class="reviews__text">Професійно підійшли до мого замовлення. Приїхали вчасно. Все зробили з мінімальною моєю участю, акуратно. Вартість такаж, як і озвучував менеджер при замовленні</div>
+				</div>
+				<div class="reviews__item">
+					<img src="img/reviews/kvartirniy-pereezd.jpg" alt="квартирний переїзд" class="reviews__client" loading="lazy">
+					<div class="title title_fs24 title_white title_tac">Олена - квартирний переїзд</div>
+					<div class="reviews__text">Професійно підійшли до мого замовлення. Приїхали вчасно. Все зробили з мінімальною моєю участю, акуратно. Вартість такаж, як і озвучував менеджер при замовленні</div>
+				</div>
+				<div class="reviews__item">
+					<img src="img/reviews/kvartirniy-pereezd.jpg" alt="квартирний переїзд" class="reviews__client" loading="lazy">
+					<div class="title title_fs24 title_white title_tac">Олена - квартирний переїзд</div>
+					<div class="reviews__text">Професійно підійшли до мого замовлення. Приїхали вчасно. Все зробили з мінімальною моєю участю, акуратно. Вартість такаж, як і озвучував менеджер при замовленні</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="conteiner">
+			<h2 class="title title_tac">Вантажні перевезння в Києві</h2>
+			<div class="about__text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper sit amet risus nullam. Ut eu sem integer vitae justo eget magna fermentum iaculis. Montes nascetur ridiculus mus mauris vitae ultricies. Condimentum mattis pellentesque id nibh tortor id. Scelerisque viverra mauris in aliquam sem fringilla. Quisque id diam vel quam elementum. Nulla facilisi nullam vehicula ipsum a arcu. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Integer malesuada nunc vel risus commodo viverra maecenas. Sed viverra tellus in hac habitasse. Id eu nisl nunc mi ipsum. Elit duis tristique sollicitudin nibh. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci.</p>
+				
+				<h2 class="title title_fs24 title_tac">Квартирний переїзд</h2>
+				<p>Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Sollicitudin ac orci phasellus egestas tellus. Velit ut tortor pretium viverra suspendisse. Duis ultricies lacus sed turpis tincidunt id aliquet. Gravida dictum fusce ut placerat orci. Vivamus at augue eget arcu dictum varius duis at. Ipsum a arcu cursus vitae congue mauris. Sed blandit libero volutpat sed. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Faucibus nisl tincidunt eget nullam non. Fermentum iaculis eu non diam phasellus vestibulum lorem sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Sollicitudin nibh sit amet commodo nulla. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Libero justo laoreet sit amet cursus sit. Vitae elementum curabitur vitae nunc sed velit. Diam ut venenatis tellus in metus vulputate.</p>
+				
+				<h2 class="title title_fs24 title_tac">Замовити офісний переїзд </h2>
+				<p>Viverra aliquet eget sit amet tellus cras adipiscing enim eu. Euismod lacinia at quis risus sed vulputate. Lectus arcu bibendum at varius vel pharetra vel turpis. Sapien eget mi proin sed libero enim sed faucibus. Aliquet eget sit amet tellus cras adipiscing enim eu. Vulputate dignissim suspendisse in est ante in nibh. Duis convallis convallis tellus id interdum velit. Turpis egestas sed tempus urna. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Amet massa vitae tortor condimentum lacinia quis vel eros. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Sed risus pretium quam vulputate dignissim suspendisse. Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Eu tincidunt tortor aliquam nulla facilisi cras. Odio tempor orci dapibus ultrices in iaculis. Est ullamcorper eget nulla facilisi etiam.</p>
+				
+				<h2 class="title title_fs24 title_tac">Замовити перевезення будівельних матеріалів</h2>
+				<p>Pulvinar mattis nunc sed blandit libero. Fermentum et sollicitudin ac orci phasellus egestas tellus. Ultricies mi quis hendrerit dolor magna eget. Venenatis cras sed felis eget velit aliquet. Sed enim ut sem viverra aliquet eget sit amet tellus. Sit amet est placerat in egestas. Eu augue ut lectus arcu bibendum at varius vel. In cursus turpis massa tincidunt dui ut ornare lectus sit. Id porta nibh venenatis cras sed felis eget velit aliquet. Sollicitudin aliquam ultrices sagittis orci a. At erat pellentesque adipiscing commodo elit at imperdiet. Nunc sed blandit libero volutpat sed. Pretium viverra suspendisse potenti nullam ac. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Morbi tristique senectus et netus et malesuada. Eget gravida cum sociis natoque penatibus et magnis dis.</p>
+				
+				<h2 class="title title_fs24 title_tac">Замовити вивіз мусору</h2>
+				<p>Rhoncus aenean vel elit scelerisque. Nulla porttitor massa id neque aliquam. Magna eget est lorem ipsum. Eget sit amet tellus cras adipiscing enim eu. Egestas sed sed risus pretium. Pellentesque adipiscing commodo elit at. Egestas purus viverra accumsan in nisl nisi. Morbi tristique senectus et netus et malesuada fames. Sed tempus urna et pharetra pharetra. Vulputate ut pharetra sit amet aliquam. Ut pharetra sit amet aliquam id diam maecenas. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Feugiat in ante metus dictum.</p>
+				
+				<h2 class="title title_fs24 title_tac">Замовити перевезення меблів</h2>
+				<p>Etiam non quam lacus suspendisse faucibus interdum. Praesent elementum facilisis leo vel. Dignissim diam quis enim lobortis scelerisque. Aliquet sagittis id consectetur purus. Gravida arcu ac tortor dignissim convallis aenean et. Egestas sed sed risus pretium. Eu mi bibendum neque egestas congue quisque. Egestas integer eget aliquet nibh. Sollicitudin tempor id eu nisl nunc. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Ullamcorper a lacus vestibulum sed arcu. Eget nulla facilisi etiam dignissim diam quis enim. Tellus molestie nunc non blandit massa enim nec. Pharetra pharetra massa massa ultricies. Lorem mollis aliquam ut porttitor leo a.</p>
+
+				<h2 class="title title_fs24 title_tac">Замовити перевезення техніки</h2>
+				<p>Etiam non quam lacus suspendisse faucibus interdum. Praesent elementum facilisis leo vel. Dignissim diam quis enim lobortis scelerisque. Aliquet sagittis id consectetur purus. Gravida arcu ac tortor dignissim convallis aenean et. Egestas sed sed risus pretium. Eu mi bibendum neque egestas congue quisque. Egestas integer eget aliquet nibh. Sollicitudin tempor id eu nisl nunc. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Ullamcorper a lacus vestibulum sed arcu. Eget nulla facilisi etiam dignissim diam quis enim. Tellus molestie nunc non blandit massa enim nec. Pharetra pharetra massa massa ultricies. Lorem mollis aliquam ut porttitor leo a.</p>
+				
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="conteiner">
+			<div class="footer__wrapper">
+				<img class="footer__logo" src="icons/logo.svg" alt="logo" class="logo" loading="lazy">
+				<img class="footer__mob-logo" src="icons/mob-logo.svg" alt="logo" class="logo" loading="lazy">
+				<div class="footer__contacts">
+					<a href="#" class="footer__tg">
+						<img src="icons/telegram-01.svg" alt="telegram" class="footer__icon" loading="lazy">
+					</a>
+					<a href="tel:+380" class="footer__phone-link">
+						<img src="icons/phone.svg" alt="phone" class="footer__icon footer__icon_mr5" loading="lazy">
+						<span>(093) 123-45-67</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- <hr> -->
+			<div class="creator">
+				Liryck Company &#169; 2024
+			</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="modal" id="consultation">
+			<div class="title title_tac title_mb20">Залиште заявку</div>
+			<div class="modal__descr">і наш менеджер зв'яжеться з Вами<br>на протязі 20 хвилин</div>
+			<div data-close class="modal__close">
+				&times;
+			</div>
+			<form class="form">
+				<input class="form__input" minlength="3" name="name" placeholder="Ваше ім'я" type="text">
+				<input class="form__input" name="phone" placeholder="Ваш телефон" type="tel">
+				<button class="button">
+					<span class="top-key"></span>
+					<span class="text">Замовити</span>
+					<span class="bottom-key-1"></span>
+					<span class="bottom-key-2"></span>
+				</button>
+			</form>
+		</div>
+
+		<div class="modal" id="order">
+			<div class="title title_tac title_mb20">Зробити заявку</div>
+			<div data-close class="modal__close">
+				&times;
+			</div>
+			<form class="form">
+				<input class="form__input" minlength="3" name="name" placeholder="Ваше ім'я" type="text">
+				<input class="form__input" name="phone" placeholder="Ваш телефон" type="tel">
+				<button class="button">
+					<span class="top-key"></span>
+					<span class="text">Замовити</span>
+					<span class="bottom-key-1"></span>
+					<span class="bottom-key-2"></span>
+				</button>
+			</form>
+		</div>
+
+		<div class="modal" id="thx">
+			<div class="title title_mb10">Дякуємо за замовлення</div>
+			<div class="modal__descr">Очікуйте дзвінок від менеджера</div>
+			<div data-close class="modal__close">
+				&times;
+			</div>
+		</div>
+		
+	</div>
+
+	
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
