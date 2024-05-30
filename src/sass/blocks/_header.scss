@@ -177,7 +177,7 @@
 		padding: 10px 0;
 		width: 100%;
 		min-height: 100px;
-		background: rgba(255,255,255,.8);
+		background: rgba(255,255,255,.9);
 		list-style-type: none;
 		transition: all 1s;
 		z-index: 2;
@@ -188,9 +188,10 @@
 				margin: 15px 0;
 				text-align: center;
 				font-size: 18px;
-				font-weight: 700;
+				
 				
             a {
+                font-weight: 700;
                 text-decoration: none;
                 margin: 0 5%;
                 color: $main-color;

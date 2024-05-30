@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-	// // Mobile Menu
+	// Mobile Menu
 
-	// const mobMenu = document.querySelector('.header__mob-menu'),
-	// 	  checkbox = document.getElementById('checkbox');
+	const mobMenu = document.querySelector('.header__mob-menu'),
+		  checkbox = document.getElementById('checkbox');
 
-	// checkbox.addEventListener('click', (e) => {
-	// 	mobMenu.classList.toggle('header__mob-menu_active');
-	// });
+	checkbox.addEventListener('click', (e) => {
+		mobMenu.classList.toggle('header__mob-menu_active');
+	});
 
 	
 	// Modal
