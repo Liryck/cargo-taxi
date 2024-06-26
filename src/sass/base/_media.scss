@@ -6,6 +6,27 @@
     .header__menu-item {
         padding: 0 10px;
     }
+
+    .services {
+        &__item-inner, &__item-front, &__item-back {
+            min-height: 370px;
+        }
+        
+
+        .title_fs24 {
+            font-size: 22px;
+        }
+
+        &__price {
+            font-size: 18px;
+        }
+    }
+
+    .reviews {
+        &__img {
+            max-height: 400px;
+        }
+    }
 }
 
 
@@ -45,20 +66,22 @@
     }
 
     .services {
-        &__item-front {
-            padding: 20px;
-        } 
-        &__price {
-            font-size: 18px;
+        &__wrapper {
+            grid-template: minmax(150px, auto) / repeat(2, 1fr);
+        }
+        &__img {
+            &_height {
+                width: auto;
+                height: 200px;
+            }
         }
     }
 
     .reviews {
-        &__text {
-            font-size: 16px;
+        &__img {
+            max-height: 360px;
         }
     }
-
 }
 
 
@@ -99,13 +122,18 @@
     }
 
     .services {
+        .title_fs24 {
+            font-size: 21px;
+        }
+    }
 
+    .reviews {
         &__wrapper {
             grid-template: minmax(150px, auto) / repeat(2, 1fr);
         }
 
-        &__price {
-            font-size: 18px;
+        &__img {
+            max-height: 525px;
         }
     }
 }
@@ -124,6 +152,11 @@
         }
         &__logo {
             height: 40px;
+        }
+        &__mob-menu {
+            &_active {
+                top: 80px;
+            }
         }
     }
 
@@ -184,50 +217,15 @@
     }
 
     .services {
-        padding: 50px 0;
-        .button .text {
-            font-size: 1em;
-        }
-
-        .title_mt70 {
-            margin-top: 50px;
-        }
-
         &__wrapper {
-            margin-top: 50px;
-        }
-
-        &__item-inner_mh375 {
-            min-height: 350px;
-        }
-
-        &__item-front, &__item-back {
-            padding: 15px;
-        }
-
-        &__price {
-            font-size: 16px;
-        }
-
-        &__table {
-            font-size: 16px;
+            grid-template: minmax(150px, auto) / 1fr;
         }
     }
 
     .reviews {
         padding: 50px 0;
-        &__wrapper {
-            grid-template: minmax(150px, auto) / 1fr;
-            margin-top: 50px;
-        }
-        &__item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        &__client {
-            width: 80%;
+        &__img {
+            max-height: 400px;
         }
     }
 
@@ -248,7 +246,7 @@
 
 @media (max-width: 576px) {
     .conteiner {
-        max-width: 80%;
+        max-width: 85%;
     }
 
     .header {
@@ -277,6 +275,12 @@
         &__icon {
             width: 30px;
             height: 30px;
+        }
+
+        &__mob-menu {
+            &_active {
+                top: 70px;
+            }
         }
     }
 
@@ -337,17 +341,48 @@
     }
 
     .services {
+        padding: 50px 0;
+
+        .title_mt70 {
+            margin-top: 50px;
+        }
+
+        &__wrapper {
+            margin-top: 50px;
+        }
+
+        &__item-front, &__item-back {
+            padding: 15px;
+        }
+
+        &__img {
+            &_height {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &__price {
+            font-size: 16px;
+        }
+
+        tbody {
+            font-size: 14px;
+        }
+
+        &__table {
+            td {
+                padding: 8px 3px;
+            }
+        }
+    }
+
+    .reviews {
         &__wrapper {
             grid-template: minmax(150px, auto) / 1fr;
         }
 
-        &__item-inner_mh375 {
-            min-height: 300px;
-        }
-
-        &__table {
-            margin-bottom: 20px;
-        }
+        
     }
 
     .footer {
@@ -390,5 +425,3 @@
         }
     }
 }
-
-

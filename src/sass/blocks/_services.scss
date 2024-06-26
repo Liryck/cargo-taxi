@@ -15,20 +15,16 @@
     &__item {
         background-color: transparent;
         width: 100%;
-        min-height: 350px;
         perspective: 1000px;
     }
     
     &__item-inner {
         position: relative;
         width: 100%;
-        min-height: 350px;
+        min-height: 450px;
         text-align: center;
         transition: transform 0.8s;
         transform-style: preserve-3d;
-        &_mh375 {
-            min-height: 375px;
-        }
     }
     
     &__item:hover &__item-inner {
@@ -43,12 +39,19 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        min-height: 350px;
+        min-height: 450px;
         padding: 30px;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border: 2px solid $main-color;
         border-radius: 1rem;
+        &_p10 {
+            padding: 10px 30px;
+        }
+        &_mh375 {
+            min-height: 375px;
+        }
+        
     }
     
     &__item-front {
@@ -86,6 +89,9 @@
         // thead {
         //     background: rgba($color: $main-color, $alpha: .1)
         // }
+        &_mb20 {
+            margin-bottom: 20px;
+        }
         th {
             padding: 10px;
             // border: 1px solid $main-color;
@@ -106,6 +112,11 @@
             padding: 5px 10px;
             &:nth-child(1) {
                 text-align: left;
+                max-width: 60%;
+            }
+            &:nth-child(2) {
+                text-align: center;
+                min-width: 40%;
             }
         }
     }
